@@ -1,0 +1,10 @@
+// Programa para inverter ordem de letras de uma palavra
+
+let palavra = "Mariana";
+let invertida = "";
+
+for (let i = 0; i < palavra.length; i++){
+  let letraAtual = palavra[i];
+  invertida = palavra[i] + invertida;
+  console.log(invertida);
+}
