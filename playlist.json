@@ -1,0 +1,19 @@
+const musicPlaylist = [
+  "O maior otário da cidade",
+  "So Am I",
+  "Moonwalkin'",
+  "Lush Life",
+  "Love Nwantiti",
+  "La Perla",
+  "Ode To The Mets",
+  "Sweet But Psycho"
+];
+
+musicPlaylist.shift();
+musicPlaylist.pop();
+musicPlaylist.push("Joy");
+musicPlaylist.unshift("Don't Let Me Down", "Selfless");
+
+for (let i = 0; i < musicPlaylist.length; i++) {
+  console.log(musicPlaylist[i]);
+}
